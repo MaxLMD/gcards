@@ -87,6 +87,9 @@
 				</div>
 				<div class="shadow"></div>
 			</div>
+			<a href="https://github.com/maxlmd/gcards" id="link">github</a>
+			<br/>
+			<a href="https://hub.nuaa.cf/maxlmd/gcards" id="link">github 镜像加速</a>
 		</div>
 	</div>
 	<script  src="javascript/index.js"></script>
@@ -138,7 +141,7 @@ else{
 document.getElementById("getjs").setAttribute("src","./text/"+md5(token)+".js");
 setTimeout(`
 document.getElementById("ptext").innerText=CryptoJS.DES.decrypt(text, CryptoJS.enc.Utf8.parse(token), {mode: CryptoJS.mode.ECB,padding: CryptoJS.pad.Pkcs7}).toString(CryptoJS.enc.Utf8);;
-document.getElementById("psign").innerText='Yours Sincerely\\nGC';
+document.getElementById("psign").innerText='Best wishes\\nGC';
 `,2800);
 </script>
 </body>
