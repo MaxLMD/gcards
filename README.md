@@ -23,7 +23,7 @@ XXX.com/?token={your token}
 ```
 Then the token is automatially saved to cookie. So next time you visit, no pop-ups, no params, just directly visit the site.
 
-<img src="./config/firework.PNG" width=100% />
+<img src="./config/firework.png" width=100% />
 
 > The beautiful firework written in javascript
 
